@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Battleship</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="app-game">
+        <h1>Battleship!</h1>
+        <h2>Round <span class="roundValue">1</span></h2>
+        <button class="showCoordinates">show corrdinates</button>
+        <div class="controls">
+          <ul>
+            <li>R - reload</li>
+            <li>Q - shoot from left</li>
+            <li>E - shoot from right</li>
+          </ul>
+          <span>WASD - controls</span>
+        </div>
+        <div class="wrapper"></div>
+      </div>
+    </div>
+
+    <script type="module" src="src/battleship.ts"></script>
+  </body>
+</html>
